@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code challenge</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <div class="container">
+       <div class="row">
+        <!-- Students Grade Generator -->
+       <div class="box">
+        <h1><u>Grade Generator</u></h1>
+          <div class="inputbox">
+           <h2><u>Enter Marks</u></h2>
+            <input type="number" id="marks" placeholder="Enter marks">
+          </div>
+          <label for="output1"><h2><u>Grade Generated</u></h2></label>
+          <output>
+            <div class="outputbox">
+              <h2>Marks:<span id="markss"></span>Grade: <span id="grade"></span></h2>
+                </div>
+          </output>
+          <div class="inputbox one">
+            <button onclick="genGrade()">Generate</button>
+          </div>
+      </div>
+      <!-- Speed detector -->
+      <div class="box">
+        <h1><u>Speed Detector</u></h1>
+          <div class="inputbox">
+           <h2><u>Enter speed</u></h2>
+            <input type="number" id="speed" placeholder="Enter speed" required>
+          </div>
+          <label for="output1"><h2><u>Demerit Points</u></h2></label>
+          <output id="outp">
+            <div class="outputbox" id="out1">
+              <h2>
+                <span id="limit"></span>
+                
+              </h2>
+            </div>
+              
+          </output>
+          <div class="inputbox one">
+            <button onclick="demerit()">Submit</button>
+          </div>
+      </div>
+      <div class="box">
+        <h1><u>Salary Calculator</u></h1>
+          <div class="inputbox">
+           <h2><u>Enter salary</u></h2>
+            <input type="number" id="salary" placeholder="Enter salary">
+          </div>
+          <label for="output1"><h2><u>Net Salary</u></h2></label>
+          <output>
+            <div class="outputbox">
+              <h2>G:<span id="nsalary"></span></h2>
+                </div>
+          </output>
+          <div class="inputbox one">
+            <button onclick="genGrade()">Submit</button>
+          </div>
+      </div> 
+       </div>
+       <!-- <div class="row">
+      <!-- Tax Calculations 
+           <div class="box bee">
+            <h1><u>Salary Calculator</u></h1>
+              <div class="inputbox">
+               <h2><u>Enter salary</u></h2>
+                <input type="number" id="salary" placeholder="Enter salary">
+              </div>
+              <label for="output1"><h2><u>Net Salary</u></h2></label>
+              <output>
+                <div class="outputbox">
+                  <h2>G:<span id="nsalary"></span></h2>
+                    </div>
+              </output>
+              <div class="inputbox one">
+                <button onclick="genGrade()">Submit</button>
+              </div> 
+          </div> 
+       </div> -->
+     </div>
+          
+</body>
+<script src="speed.js"></script>
+<script src="index.js"></script>
+</html>
